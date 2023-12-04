@@ -4,6 +4,7 @@ def sqrt():
     s=math.sqrt(n)
     print("Square root of ",n," is ",s)
     return
+
 print("1.Addition\n2.Substraction\n3.Multiplication\n4.Division\n5.Square-Root\n6.Power\n7.exit\n")
 op=0
 while op<7:
@@ -16,7 +17,7 @@ while op<7:
         case 3:
             print("Work In Progress")
         case 4:
-            print("Work In Progress")
+            division()
         case 5:
             sqrt()
         case 6:
