@@ -10,6 +10,12 @@ def division():
     s=a/b
     print(s)
     return
+def addition()
+    x=int(input("Enter 1st number"))
+    y=int(input("Enter 2nd number"))
+    z=a+b
+    print(z)
+    
 print("1.Addition\n2.Substraction\n3.Multiplication\n4.Division\n5.Square-Root\n6.Power\n7.exit\n")
 op=0
 while op<7:
